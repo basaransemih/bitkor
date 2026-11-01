@@ -357,9 +357,6 @@ print("\n Tamamlandı! Yeni grafik indiriliyor...")
 files.download('tubitak_gercek_grafik.png')
 files.download('akilli_tarim_kenar_model.tflite')
 
-# 1. Eksik kütüphaneyi kur ve veri kümesini doğrudan çek
-!pip install importlib_resources
-
 import os
 import tensorflow as tf
 from tensorflow.keras import layers, models
