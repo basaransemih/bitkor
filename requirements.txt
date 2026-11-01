@@ -1,0 +1,6 @@
+streamlit
+numpy
+pillow
+matplotlib
+scipy
+importlib_resources
